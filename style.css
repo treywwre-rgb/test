@@ -67,15 +67,22 @@ li {
     justify-content: center;
 }
 
+#about,
+#discord
+#contact {
+    padding: 48px 0;
+   
+}
+
 /*
 
 About
 
 */
 
+
 #about {
-    padding: 48px 0;
-  
+     background-color: #f8ffdc;
 }
 
 h2 {
@@ -91,7 +98,7 @@ h2 {
 }
 
 .about__img--wrapper {
-    width: 60%;
+    width: 40%;
 }
 
 img {
@@ -111,4 +118,32 @@ img {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/*
+
+Discord
+
+*/
+
+#discord {
+    background-color: #cefeff;
+}
+
+/*
+
+Contact
+
+*/
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
