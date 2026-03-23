@@ -18,7 +18,6 @@
         </nav>
         <header>
             <div class="row">    
-            </div>
             <div>
                 <h1>Best Place to Learn Frontend</h1>
                 <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
@@ -27,13 +26,18 @@
             <figure>
                 <img src="./HTML Practise Assets/laptop.png" alt="Home page image">
             </figure>
+        </div>
         </header>
     </section>
     
     <main>
-        <section id="about">
-            <h2>About</h2>
-            <div class="section___description"><div class="section__description--wrapper"s"></div>
+     <section id="about">
+     <div class="container">
+        <div class="row">
+            <div class="row">
+            <div class="section___description">
+            <div class="section__description--wrapper">
+                 <h2>About</h2>
             <p class="section__description--para">
             Welcome to our frontend learning platform!
             We are dedicated to helping you become a skilled frontend developer through
@@ -44,34 +48,53 @@
             We are dedicated to helping you become a skilled frontend developer through
             a simplified learning process. Whether you're an absolute beginner or looking to enhance your existing skills, our platform offers comprehensive resources and guidance to support your journey. Join us today and start your path to becoming a frontend pro!
             </p>
-        </div>
-        <figure>
+            </div>
+             <figure>
             <img src="./HTML Practise Assets/about.jpg" alt="About page image">
         </figure>
+        </div>
+         </div>
+        </div>
+        
         </section>
         <section id="discord">
-            <h2>Discord</h2>
-            <figure>
+            <div class="container">
+            <div class="row">
+                <figure>
                 <img src="./HTML Practise Assets/discord.png" alt="Discord image">
             </figure>
+            <div class="section__description">
+                <div class="section__description--wrapper">
+                <h2>Discord</h2>
+            
             <div>
-                <p>Join our Discord community to connect with other learners and get help with your frontend development journey!
+                <p class="section__description--para">Join our Discord community to connect with other learners and get help with your frontend development journey!
                     Our Discord server is a vibrant and supportive space where you can ask questions, share your progress, and collaborate with fellow learners. Whether you're stuck on a coding problem or just want to chat about frontend development, our community is here to help you succeed. Join us today and be part of our growing community of frontend enthusiasts!
-                </p>
+                </p>>
             </div>
+            </div>
+            </div> 
         </section>
 
         <section id="contact">
-            <h2>Contact</h2>
+            <div class="container">
+            <div class="row">
+                  <h2>Contact</h2>
+            <form
             <span>Email</span>
             <input type="text" placeholder="jane@example.com">
             <span>Message</span>
-            <textarea ="text" placeholder="jane@example.com"><textarea
+            <textarea type="text" placeholder="jane@example.com"></textarea>
         </form>
+            </div>
+        </div>
+           
         </section>
     </main>
     <footer>
-        <img src="./HTML Practise Assets/FES.svg" alt="Footer image">
+        <div class="container">
+            <div class="row">
+            <img src="./HTML Practise Assets/FES.svg" alt="Footer image">
         <div>
             <a href="#about">About</a>
             <a href="#discord">Discord</a>
@@ -79,4 +102,8 @@
             <a href="#courses">Courses</a>
             <p>Copyright 2024 Frontend Simplified</p>
         </div>
-    </footer>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
